@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="zh">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Meetings Archive</title>
+<script src="https://unpkg.com/vue@3/dist/vue.global.prod.js"></script>
+<style>
+:root{
+  --bg:#f6f7f9; --card:#fff; --ink:#1f2937; --sub:#6b7280; --line:#e5e7eb;
+  --brand:#4f46e5; --brand-soft:#eef2ff;
+  --org-IETF:#2563eb; --org-APNIC:#ea580c; --org-RIPE:#7c3aed;
+  --org-ICANN:#059669; --org-NANOG:#dc2626; --org-MANRS:#0891b2;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);
+  font:15px/1.6 system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",sans-serif}
+#app{max-width:880px;margin:0 auto;padding:32px 20px 60px}
+.head{display:flex;justify-content:space-between;align-items:flex-start;gap:16px;margin-bottom:6px}
+.head h1{font-size:22px;margin:0;font-weight:700}
+.head .sub{color:var(--sub);font-size:13px;margin-top:4px}
+.langbtn{border:1px solid var(--line);background:#fff;border-radius:999px;
+  padding:6px 14px;font-size:13px;cursor:pointer;color:var(--brand);font-weight:600}
+.langbtn:hover{background:var(--brand-soft)}
+.stat{color:var(--sub);font-size:13px;margin:10px 0 18px}
+.filters{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:18px}
+.filters button{border:1px solid var(--line);background:#fff;border-radius:999px;
+  padding:5px 12px;font-size:12.5px;cursor:pointer;color:var(--sub)}
+.filters button.on{background:var(--brand);border-color:var(--brand);color:#fff}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;
+  padding:16px 18px;margin-bottom:12px;transition:.18s}
+.card:hover{transform:translateY(-1px);box-shadow:0 6px 20px rgba(0,0,0,.06)}
+.card h3{margin:0 0 8px;font-size:16px}
+.card h3 a{color:var(--ink);text-decoration:none}
+.card h3 a:hover{color:var(--brand)}
+.pill{display:inline-block;font-size:11.5px;font-weight:700;color:#fff;
+  border-radius:999px;padding:2px 9px;margin-right:8px;cursor:pointer;vertical-align:2px}
+.pill-IETF{background:var(--org-IETF)} .pill-APNIC{background:var(--org-APNIC)}
+.pill-RIPE{background:var(--org-RIPE)} .pill-ICANN{background:var(--org-ICANN)}
+.pill-NANOG{background:var(--org-NANOG)} .pill-MANRS{background:var(--org-MANRS)}
+.meta{color:var(--sub);font-size:13.5px;margin:2px 0}
+.meta .loc.tbd{color:#9ca3af;font-style:italic}
+.about{margin-top:28px;background:#eff6ff;border:1px solid #dbeafe;
+  border-radius:14px;padding:16px 18px;color:#1e3a8a;font-size:13px}
+.about b{display:block;margin-bottom:6px}
+.srcs a{color:var(--brand);text-decoration:none;margin-right:10px}
+.empty{color:var(--sub);padding:30px;text-align:center}
+@media(max-width:560px){.head{flex-direction:column}.filters button{font-size:12px}}
+</style>
+</head>
+<body>
+<div id="app"></div>
+<script type="module" src="./app.js"></script>
+</body>
+</html>

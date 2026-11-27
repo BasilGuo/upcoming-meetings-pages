@@ -1,0 +1,402 @@
+{
+  "generated_at": "2026-11-27T16:46:21",
+  "count": 44,
+  "meetings": [
+    {
+      "id": "nanog-99",
+      "name": "NANOG 99",
+      "org": "NANOG",
+      "start": "2027-02-22",
+      "end": "2027-02-24",
+      "location": "Boston, MA, USA",
+      "url": "https://nanog.org/events/nanog-99/"
+    },
+    {
+      "id": "apnic-63-apricot-2027",
+      "name": "APNIC 63 - APRICOT 2027",
+      "org": "APNIC",
+      "start": "2027-02-24",
+      "end": "2027-03-04",
+      "location": "Hong Kong SAR, China",
+      "url": "https://www.apnic.net/events/conferences/apnic-63-apricot-2027/"
+    },
+    {
+      "id": "ietf-128",
+      "name": "IETF 128",
+      "org": "IETF",
+      "start": "2027-03-06",
+      "end": "2027-03-12",
+      "location": "Kuala Lumpur - Kuala Lumpur Convention Center, Hosted by Huawei",
+      "url": "https://www.ietf.org/meeting/128/"
+    },
+    {
+      "id": "icann88",
+      "name": "ICANN88 (Community Forum)",
+      "org": "ICANN",
+      "start": "2027-03-13",
+      "end": "2027-03-18",
+      "location": "Lisbon",
+      "url": "https://meetings.icann.org/en/meetings/icann88"
+    },
+    {
+      "id": "ripe-94",
+      "name": "RIPE 94",
+      "org": "RIPE",
+      "start": "2027-05-24",
+      "end": "2027-05-28",
+      "location": "Vilnius, Lithuania",
+      "url": "https://ripe94.ripe.net/"
+    },
+    {
+      "id": "icann89",
+      "name": "ICANN89 (Policy Forum)",
+      "org": "ICANN",
+      "start": "2027-06-14",
+      "end": "2027-06-17",
+      "location": "Vancouver",
+      "url": "https://meetings.icann.org/en/meetings/icann89"
+    },
+    {
+      "id": "nanog-100",
+      "name": "NANOG 100",
+      "org": "NANOG",
+      "start": "2027-06-28",
+      "end": "2027-06-30",
+      "location": "San Francisco, CA, USA",
+      "url": "https://nanog.org/events/nanog-100/"
+    },
+    {
+      "id": "ietf-129",
+      "name": "IETF 129",
+      "org": "IETF",
+      "start": "2027-07-17",
+      "end": "2027-07-23",
+      "location": "Berlin, Germany - Berlin Intercontinental, Hosted by Nokia",
+      "url": "https://www.ietf.org/meeting/129/"
+    },
+    {
+      "id": "apnic-64",
+      "name": "APNIC 64",
+      "org": "APNIC",
+      "start": "2027-09-02",
+      "end": "2027-09-09",
+      "location": "Ulaanbaatar, Mongolia",
+      "url": "https://www.apnic.net/events/conferences/apnic-64/"
+    },
+    {
+      "id": "nanog-101",
+      "name": "NANOG 101",
+      "org": "NANOG",
+      "start": "2027-10-18",
+      "end": "2027-10-20",
+      "location": "New Orleans, LA, USA",
+      "url": "https://nanog.org/events/nanog-101/"
+    },
+    {
+      "id": "icann90",
+      "name": "ICANN90 (Annual General Meeting (29th))",
+      "org": "ICANN",
+      "start": "2027-10-30",
+      "end": "2027-11-04",
+      "location": "Adelaide",
+      "url": "https://meetings.icann.org/en/meetings/icann90"
+    },
+    {
+      "id": "ietf-130",
+      "name": "IETF 130",
+      "org": "IETF",
+      "start": "2027-11-06",
+      "end": "2027-11-12",
+      "location": "Vancouver, Canada - Hyatt Regency Vancouver, Hosted by HPE",
+      "url": "https://www.ietf.org/meeting/130/"
+    },
+    {
+      "id": "ripe-95",
+      "name": "RIPE 95",
+      "org": "RIPE",
+      "start": "2027-11-15",
+      "end": "2027-11-19",
+      "location": "Madrid, Spain",
+      "url": "https://ripe95.ripe.net/"
+    },
+    {
+      "id": "nanog-102",
+      "name": "NANOG 102",
+      "org": "NANOG",
+      "start": "2028-02-21",
+      "end": "2028-02-23",
+      "location": "TBD",
+      "url": "https://nanog.org/events/future/?type=conference"
+    },
+    {
+      "id": "icann91",
+      "name": "ICANN91 (Community Forum)",
+      "org": "ICANN",
+      "start": "2028-03-04",
+      "end": "2028-03-09",
+      "location": "TBD",
+      "url": "https://meetings.icann.org/en/meetings/icann91"
+    },
+    {
+      "id": "ietf-131",
+      "name": "IETF 131",
+      "org": "IETF",
+      "start": "2028-03-18",
+      "end": "2028-03-24",
+      "location": "(To be booked - Asia)",
+      "url": "https://www.ietf.org/meeting/131/"
+    },
+    {
+      "id": "ripe-96",
+      "name": "RIPE 96",
+      "org": "RIPE",
+      "start": "2028-05-15",
+      "end": "2028-05-19",
+      "location": "",
+      "url": "https://www.ripe.net/meetings/ripe-meetings/"
+    },
+    {
+      "id": "icann92",
+      "name": "ICANN92 (Policy Forum)",
+      "org": "ICANN",
+      "start": "2028-06-12",
+      "end": "2028-06-15",
+      "location": "TBD",
+      "url": "https://meetings.icann.org/en/meetings/icann92"
+    },
+    {
+      "id": "ietf-132",
+      "name": "IETF 132",
+      "org": "IETF",
+      "start": "2028-07-15",
+      "end": "2028-07-21",
+      "location": "(To be booked - Europe)",
+      "url": "https://www.ietf.org/meeting/132/"
+    },
+    {
+      "id": "apnic-65",
+      "name": "APNIC 65",
+      "org": "APNIC",
+      "start": "2028-09-07",
+      "end": "2028-09-15",
+      "location": "Oceania",
+      "url": "https://www.apnic.net/events/conferences/apnic-65/"
+    },
+    {
+      "id": "icann93",
+      "name": "ICANN93 (Annual General Meeting (30th))",
+      "org": "ICANN",
+      "start": "2028-10-21",
+      "end": "2028-10-26",
+      "location": "TBD",
+      "url": "https://meetings.icann.org/en/meetings/icann93"
+    },
+    {
+      "id": "ietf-133",
+      "name": "IETF 133",
+      "org": "IETF",
+      "start": "2028-11-04",
+      "end": "2028-11-10",
+      "location": "(To be booked - North America)",
+      "url": "https://www.ietf.org/meeting/133/"
+    },
+    {
+      "id": "ripe-97",
+      "name": "RIPE 97",
+      "org": "RIPE",
+      "start": "2028-11-13",
+      "end": "2028-11-17",
+      "location": "",
+      "url": "https://www.ripe.net/meetings/ripe-meetings/"
+    },
+    {
+      "id": "icann94",
+      "name": "ICANN94 (Community Forum)",
+      "org": "ICANN",
+      "start": "2029-03-03",
+      "end": "2029-03-08",
+      "location": "TBD",
+      "url": "https://meetings.icann.org/en/meetings/icann94"
+    },
+    {
+      "id": "ietf-134",
+      "name": "IETF 134",
+      "org": "IETF",
+      "start": "2029-03-17",
+      "end": "2029-03-23",
+      "location": "(To be booked - Asia)",
+      "url": "https://www.ietf.org/meeting/134/"
+    },
+    {
+      "id": "ripe-98",
+      "name": "RIPE 98",
+      "org": "RIPE",
+      "start": "2029-05-14",
+      "end": "2029-05-18",
+      "location": "TBD",
+      "url": "https://www.ripe.net/meetings/ripe-meetings/"
+    },
+    {
+      "id": "icann95",
+      "name": "ICANN95 (Policy Forum)",
+      "org": "ICANN",
+      "start": "2029-06-04",
+      "end": "2029-06-07",
+      "location": "TBD",
+      "url": "https://meetings.icann.org/en/meetings/icann95"
+    },
+    {
+      "id": "ietf-135",
+      "name": "IETF 135",
+      "org": "IETF",
+      "start": "2029-07-14",
+      "end": "2029-07-20",
+      "location": "(To be booked - Europe)",
+      "url": "https://www.ietf.org/meeting/135/"
+    },
+    {
+      "id": "apnic-66",
+      "name": "APNIC 66",
+      "org": "APNIC",
+      "start": "2029-09-06",
+      "end": "2029-09-14",
+      "location": "South Asia",
+      "url": "https://www.apnic.net/events/conferences/apnic-66/"
+    },
+    {
+      "id": "icann96",
+      "name": "ICANN96 (Annual General Meeting (31st))",
+      "org": "ICANN",
+      "start": "2029-10-06",
+      "end": "2029-10-11",
+      "location": "TBD",
+      "url": "https://meetings.icann.org/en/meetings/icann96"
+    },
+    {
+      "id": "ripe-99",
+      "name": "RIPE 99",
+      "org": "RIPE",
+      "start": "2029-10-22",
+      "end": "2029-10-26",
+      "location": "TBD",
+      "url": "https://www.ripe.net/meetings/ripe-meetings/"
+    },
+    {
+      "id": "ietf-136",
+      "name": "IETF 136",
+      "org": "IETF",
+      "start": "2029-11-03",
+      "end": "2029-11-09",
+      "location": "(To be booked - North America)",
+      "url": "https://www.ietf.org/meeting/136/"
+    },
+    {
+      "id": "ietf-137",
+      "name": "IETF 137",
+      "org": "IETF",
+      "start": "2030-03-23",
+      "end": "2030-03-29",
+      "location": "(To be booked - Asia)",
+      "url": "https://www.ietf.org/meeting/137/"
+    },
+    {
+      "id": "ietf-138",
+      "name": "IETF 138",
+      "org": "IETF",
+      "start": "2030-07-13",
+      "end": "2030-07-19",
+      "location": "(To be booked - Europe)",
+      "url": "https://www.ietf.org/meeting/138/"
+    },
+    {
+      "id": "ietf-139",
+      "name": "IETF 139",
+      "org": "IETF",
+      "start": "2030-11-02",
+      "end": "2030-11-08",
+      "location": "(To be booked - North America)",
+      "url": "https://www.ietf.org/meeting/139/"
+    },
+    {
+      "id": "ietf-140",
+      "name": "IETF 140",
+      "org": "IETF",
+      "start": "2031-03-22",
+      "end": "2031-03-28",
+      "location": "(To be booked - Asia)",
+      "url": "https://www.ietf.org/meeting/140/"
+    },
+    {
+      "id": "ietf-141",
+      "name": "IETF 141",
+      "org": "IETF",
+      "start": "2031-07-12",
+      "end": "2031-07-18",
+      "location": "(To be booked - Europe)",
+      "url": "https://www.ietf.org/meeting/141/"
+    },
+    {
+      "id": "ietf-142",
+      "name": "IETF 142",
+      "org": "IETF",
+      "start": "2031-11-01",
+      "end": "2031-11-07",
+      "location": "(To be booked - North America)",
+      "url": "https://www.ietf.org/meeting/142/"
+    },
+    {
+      "id": "ietf-143",
+      "name": "IETF 143",
+      "org": "IETF",
+      "start": "2032-03-13",
+      "end": "2032-03-19",
+      "location": "(To be booked - Asia)",
+      "url": "https://www.ietf.org/meeting/143/"
+    },
+    {
+      "id": "ietf-144",
+      "name": "IETF 144",
+      "org": "IETF",
+      "start": "2032-07-10",
+      "end": "2032-07-16",
+      "location": "(To be booked - Europe)",
+      "url": "https://www.ietf.org/meeting/144/"
+    },
+    {
+      "id": "ietf-145",
+      "name": "IETF 145",
+      "org": "IETF",
+      "start": "2032-11-13",
+      "end": "2032-11-19",
+      "location": "(To be booked - North America)",
+      "url": "https://www.ietf.org/meeting/145/"
+    },
+    {
+      "id": "ietf-146",
+      "name": "IETF 146",
+      "org": "IETF",
+      "start": "2033-03-26",
+      "end": "2033-04-01",
+      "location": "(To be booked - Asia)",
+      "url": "https://www.ietf.org/meeting/146/"
+    },
+    {
+      "id": "ietf-147",
+      "name": "IETF 147",
+      "org": "IETF",
+      "start": "2033-07-16",
+      "end": "2033-07-22",
+      "location": "(To be booked - Europe)",
+      "url": "https://www.ietf.org/meeting/147/"
+    },
+    {
+      "id": "ietf-148",
+      "name": "IETF 148",
+      "org": "IETF",
+      "start": "2033-11-12",
+      "end": "2033-11-18",
+      "location": "(To be booked - North America)",
+      "url": "https://www.ietf.org/meeting/148/"
+    }
+  ]
+}
