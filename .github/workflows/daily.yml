@@ -8,6 +8,10 @@ on:
     branches: [main]
     paths:
       - 'site/**'
+      - 'src/**'
+      - 'requirements*.txt'
+      - 'pyproject.toml'
+      - '.github/workflows/**'
 
 permissions:
   contents: write # commit the generated site/data.json back into the repo
