@@ -4,7 +4,7 @@ const ORGS = ['IETF','APNIC','RIPE','ICANN','NANOG','MANRS'];
 
 const App = {
   setup() {
-    const locale = ref(localStorage.getItem('lang') || 'zh');
+    const locale = ref(localStorage.getItem('lang') || 'en');
     const dict = ref({ zh:{}, en:{} });
     const meetings = ref([]);
     const meta = ref({ generated_at:'', count:0 });
