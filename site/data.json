@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-27T16:46:21",
-  "count": 44,
+  "generated_at": "2026-11-27T17:48:35",
+  "count": 57,
   "meetings": [
     {
       "id": "nanog-99",
@@ -30,7 +30,7 @@
       "url": "https://www.ietf.org/meeting/128/"
     },
     {
-      "id": "icann88",
+      "id": "icannicann88",
       "name": "ICANN88 (Community Forum)",
       "org": "ICANN",
       "start": "2027-03-13",
@@ -45,10 +45,10 @@
       "start": "2027-05-24",
       "end": "2027-05-28",
       "location": "Vilnius, Lithuania",
-      "url": "https://ripe94.ripe.net/"
+      "url": "https://www.ripe.net/meetings/calendar/ripe-94/"
     },
     {
-      "id": "icann89",
+      "id": "icannicann89",
       "name": "ICANN89 (Policy Forum)",
       "org": "ICANN",
       "start": "2027-06-14",
@@ -117,7 +117,7 @@
       "start": "2027-11-15",
       "end": "2027-11-19",
       "location": "Madrid, Spain",
-      "url": "https://ripe95.ripe.net/"
+      "url": "https://www.ripe.net/meetings/calendar/ripe-95/"
     },
     {
       "id": "nanog-102",
@@ -129,7 +129,7 @@
       "url": "https://nanog.org/events/future/?type=conference"
     },
     {
-      "id": "icann91",
+      "id": "icannicann91",
       "name": "ICANN91 (Community Forum)",
       "org": "ICANN",
       "start": "2028-03-04",
@@ -153,10 +153,10 @@
       "start": "2028-05-15",
       "end": "2028-05-19",
       "location": "",
-      "url": "https://www.ripe.net/meetings/ripe-meetings/"
+      "url": "https://www.ripe.net/meetings/calendar/ripe-96/"
     },
     {
-      "id": "icann92",
+      "id": "icannicann92",
       "name": "ICANN92 (Policy Forum)",
       "org": "ICANN",
       "start": "2028-06-12",
@@ -183,7 +183,7 @@
       "url": "https://www.apnic.net/events/conferences/apnic-65/"
     },
     {
-      "id": "icann93",
+      "id": "icannicann93",
       "name": "ICANN93 (Annual General Meeting (30th))",
       "org": "ICANN",
       "start": "2028-10-21",
@@ -207,10 +207,10 @@
       "start": "2028-11-13",
       "end": "2028-11-17",
       "location": "",
-      "url": "https://www.ripe.net/meetings/ripe-meetings/"
+      "url": "https://www.ripe.net/meetings/calendar/ripe-97/"
     },
     {
-      "id": "icann94",
+      "id": "icannicann94",
       "name": "ICANN94 (Community Forum)",
       "org": "ICANN",
       "start": "2029-03-03",
@@ -234,10 +234,10 @@
       "start": "2029-05-14",
       "end": "2029-05-18",
       "location": "TBD",
-      "url": "https://www.ripe.net/meetings/ripe-meetings/"
+      "url": "https://www.ripe.net/meetings/calendar/ripe-98/"
     },
     {
-      "id": "icann95",
+      "id": "icannicann95",
       "name": "ICANN95 (Policy Forum)",
       "org": "ICANN",
       "start": "2029-06-04",
@@ -264,7 +264,7 @@
       "url": "https://www.apnic.net/events/conferences/apnic-66/"
     },
     {
-      "id": "icann96",
+      "id": "icannicann96",
       "name": "ICANN96 (Annual General Meeting (31st))",
       "org": "ICANN",
       "start": "2029-10-06",
@@ -279,7 +279,7 @@
       "start": "2029-10-22",
       "end": "2029-10-26",
       "location": "TBD",
-      "url": "https://www.ripe.net/meetings/ripe-meetings/"
+      "url": "https://www.ripe.net/meetings/calendar/ripe-99/"
     },
     {
       "id": "ietf-136",
@@ -291,6 +291,15 @@
       "url": "https://www.ietf.org/meeting/136/"
     },
     {
+      "id": "icannicann97",
+      "name": "ICANN97 (Community Forum)",
+      "org": "ICANN",
+      "start": "2030-03-09",
+      "end": "2030-03-14",
+      "location": "TBD",
+      "url": "https://meetings.icann.org/en/meetings/icann97"
+    },
+    {
       "id": "ietf-137",
       "name": "IETF 137",
       "org": "IETF",
@@ -298,6 +307,24 @@
       "end": "2030-03-29",
       "location": "(To be booked - Asia)",
       "url": "https://www.ietf.org/meeting/137/"
+    },
+    {
+      "id": "ripe-100",
+      "name": "RIPE 100",
+      "org": "RIPE",
+      "start": "2030-05-13",
+      "end": "2030-05-17",
+      "location": "TBD",
+      "url": "https://www.ripe.net/meetings/calendar/ripe-100/"
+    },
+    {
+      "id": "icannicann98",
+      "name": "ICANN98 (Policy Forum)",
+      "org": "ICANN",
+      "start": "2030-06-03",
+      "end": "2030-06-06",
+      "location": "TBD",
+      "url": "https://meetings.icann.org/en/meetings/icann98"
     },
     {
       "id": "ietf-138",
@@ -309,6 +336,24 @@
       "url": "https://www.ietf.org/meeting/138/"
     },
     {
+      "id": "apnic-67",
+      "name": "APNIC 67",
+      "org": "APNIC",
+      "start": "2030-09-05",
+      "end": "2030-09-13",
+      "location": "East Asia",
+      "url": "https://www.apnic.net/events/conferences/apnic-67/"
+    },
+    {
+      "id": "icannicann99",
+      "name": "ICANN99 (Annual General Meeting (32nd))",
+      "org": "ICANN",
+      "start": "2030-10-19",
+      "end": "2030-10-23",
+      "location": "TBD",
+      "url": "https://meetings.icann.org/en/meetings/icann99"
+    },
+    {
       "id": "ietf-139",
       "name": "IETF 139",
       "org": "IETF",
@@ -316,6 +361,15 @@
       "end": "2030-11-08",
       "location": "(To be booked - North America)",
       "url": "https://www.ietf.org/meeting/139/"
+    },
+    {
+      "id": "icannicann100",
+      "name": "ICANN100 (Community Forum)",
+      "org": "ICANN",
+      "start": "2031-03-01",
+      "end": "2031-03-06",
+      "location": "TBD",
+      "url": "https://meetings.icann.org/en/meetings/icann100"
     },
     {
       "id": "ietf-140",
@@ -327,6 +381,15 @@
       "url": "https://www.ietf.org/meeting/140/"
     },
     {
+      "id": "icannicann101",
+      "name": "ICANN101 (Policy Forum)",
+      "org": "ICANN",
+      "start": "2031-06-02",
+      "end": "2031-06-05",
+      "location": "TBD",
+      "url": "https://meetings.icann.org/en/meetings/icann101"
+    },
+    {
       "id": "ietf-141",
       "name": "IETF 141",
       "org": "IETF",
@@ -334,6 +397,15 @@
       "end": "2031-07-18",
       "location": "(To be booked - Europe)",
       "url": "https://www.ietf.org/meeting/141/"
+    },
+    {
+      "id": "icannicann102",
+      "name": "ICANN102 (Annual General Meeting (33rd))",
+      "org": "ICANN",
+      "start": "2031-10-18",
+      "end": "2031-10-23",
+      "location": "TBD",
+      "url": "https://meetings.icann.org/en/meetings/icann102"
     },
     {
       "id": "ietf-142",
@@ -354,6 +426,15 @@
       "url": "https://www.ietf.org/meeting/143/"
     },
     {
+      "id": "icannicann104",
+      "name": "ICANN104 (Policy Forum)",
+      "org": "ICANN",
+      "start": "2032-06-07",
+      "end": "2032-06-10",
+      "location": "TBD",
+      "url": "https://meetings.icann.org/en/meetings/icann104"
+    },
+    {
       "id": "ietf-144",
       "name": "IETF 144",
       "org": "IETF",
@@ -361,6 +442,15 @@
       "end": "2032-07-16",
       "location": "(To be booked - Europe)",
       "url": "https://www.ietf.org/meeting/144/"
+    },
+    {
+      "id": "icannicann105",
+      "name": "ICANN105 (Annual General Meeting (34th))",
+      "org": "ICANN",
+      "start": "2032-10-16",
+      "end": "2032-10-21",
+      "location": "TBD",
+      "url": "https://meetings.icann.org/en/meetings/icann105"
     },
     {
       "id": "ietf-145",
@@ -372,6 +462,15 @@
       "url": "https://www.ietf.org/meeting/145/"
     },
     {
+      "id": "icannicann106",
+      "name": "ICANN106 (Community Forum)",
+      "org": "ICANN",
+      "start": "2033-03-05",
+      "end": "2033-03-10",
+      "location": "TBD",
+      "url": "https://meetings.icann.org/en/meetings/icann106"
+    },
+    {
       "id": "ietf-146",
       "name": "IETF 146",
       "org": "IETF",
@@ -381,6 +480,15 @@
       "url": "https://www.ietf.org/meeting/146/"
     },
     {
+      "id": "icannicann107",
+      "name": "ICANN107 (Policy Forum)",
+      "org": "ICANN",
+      "start": "2033-06-06",
+      "end": "2033-06-09",
+      "location": "TBD",
+      "url": "https://meetings.icann.org/en/meetings/icann107"
+    },
+    {
       "id": "ietf-147",
       "name": "IETF 147",
       "org": "IETF",
@@ -388,6 +496,15 @@
       "end": "2033-07-22",
       "location": "(To be booked - Europe)",
       "url": "https://www.ietf.org/meeting/147/"
+    },
+    {
+      "id": "icannicann108",
+      "name": "ICANN108 (Annual General Meeting (35th))",
+      "org": "ICANN",
+      "start": "2033-10-22",
+      "end": "2033-10-29",
+      "location": "TBD",
+      "url": "https://meetings.icann.org/en/meetings/icann108"
     },
     {
       "id": "ietf-148",

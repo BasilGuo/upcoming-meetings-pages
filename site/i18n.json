@@ -1,27 +1,25 @@
 {
   "zh": {
     "title": "即将举行的网络技术会议",
-    "subtitle": "IETF / APNIC / RIPE / ICANN / NANOG / MANRS · 近三年",
     "switch": "EN",
     "all": "全部",
     "count_prefix": "共",
     "count_suffix": "场会议",
     "gen_at": "最后更新",
     "window": "仅展示今天起 3 年内",
-    "empty": "暂无该组织会议",
+    "empty": "暂未获取该组织会议，可从上方连接进入",
     "about_title": "关于本服务",
     "about_body": "每日自动汇总六大互联网治理与路由安全组织会议，按日期升序排列。个人项目，不隶属于上述组织。"
   },
   "en": {
     "title": "Upcoming Network Meetings",
-    "subtitle": "IETF / APNIC / RIPE / ICANN / NANOG / MANRS · Next 3 years",
     "switch": "中文",
     "all": "ALL",
     "count_prefix": "",
     "count_suffix": "meetings",
     "gen_at": "Updated",
     "window": "Next 3 years only",
-    "empty": "No meetings for this org",
+    "empty": "No meetings have been retrieved for this organization. You can access and retrieve events via the link above.",
     "about_title": "About",
     "about_body": "Daily aggregate of Internet-governance & routing community meetings, sorted by date. Personal project, not affiliated with the listed organizations."
   }

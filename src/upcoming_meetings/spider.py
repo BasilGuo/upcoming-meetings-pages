@@ -47,6 +47,15 @@ class BaseSpider(ABC):
         r",?\s*(\d{4})"
     )
 
+    _HEADERS = {
+        "User-Agent": ("Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) "
+                       "AppleWebKit/537.36 (KHTML, like Gecko) "
+                       "Chrome/131.0.0.0 Safari/537.36"),
+        "Accept": ("text/html,application/xhtml+xml,application/xml;q=0.9,"
+                   "image/avif,image/webp,*/*;q=0.8"),
+        "Accept-Language": "en-US,en;q=0.9",
+    }
+
     @classmethod
     def strip_tags(cls, s: str) -> str:
         return htmllib.unescape(cls._TAG.sub(" ", s)).replace("\xa0", " ")
@@ -90,7 +99,7 @@ class BaseSpider(ABC):
         import urllib.request
         req = urllib.request.Request(
             self.source_url,
-            headers={"User-Agent": "Chrome; Mozilla; (+github-actions)"},
+            headers=self._HEADERS,
         )
         with urllib.request.urlopen(req, timeout=25) as r:
             charset = r.headers.get_content_charset() or "utf-8"
@@ -100,14 +109,11 @@ class BaseSpider(ABC):
     def crawl(self) -> list[Meeting]:
         html = self.fetch_html()
         if not html.strip():
-            raise ValueError(f"{self.org}: empty respons")
+            raise ValueError(f"{self.org}: empty response")
         items = self.parse(html)
-        if not items:
-            raise ValueError(f"{self.org}: parsed 0 meetings")
         for m in items:
             m.org = self.org
             if not m.url:
                 m.url = self.source_url
         print(f"[INFO] crawled {self.org}: {len(items)} meetings")
         return items
-

@@ -51,7 +51,14 @@ const App = {
   <div class="head">
     <div>
       <h1>🗓️ {{ t('title') }}</h1>
-      <!--  <div class="sub">{{ t('subtitle') }}</div> -->
+      <div class="srcs" style="margin-top:8px">
+        <a href="https://www.ietf.org/meeting/upcoming/" target="_blank">IETF</a>
+        <a href="https://www.apnic.net/events/conferences/" target="_blank">APNIC</a>
+        <a href="https://www.ripe.net/meetings/ripe-meetings/upcoming-ripe-meetings/" target="_blank">RIPE</a>
+        <a href="https://meetings.icann.org/en/calendar" target="_blank">ICANN</a>
+        <a href="https://nanog.org/events/future/?type=conference" target="_blank">NANOG</a>
+        <a href="https://manrs.org/resources/events/" target="_blank">MANRS</a>
+      </div>
     </div>
     <button class="langbtn" @click="switchLang">{{ t('switch') }}</button>
   </div>
@@ -85,14 +92,6 @@ const App = {
   <section class="about">
     <b>ℹ️ {{ t('about_title') }}</b>
     <div>{{ t('about_body') }}</div>
-    <div class="srcs" style="margin-top:8px">
-      <a href="https://www.ietf.org/meeting/upcoming/" target="_blank">IETF</a>
-      <a href="https://www.apnic.net/events/conferences/" target="_blank">APNIC</a>
-      <a href="https://www.ripe.net/meetings/ripe-meetings/upcoming-ripe-meetings/" target="_blank">RIPE</a>
-      <a href="https://meetings.icann.org/en/calendar" target="_blank">ICANN</a>
-      <a href="https://nanog.org/events/future/?type=conference" target="_blank">NANOG</a>
-      <a href="https://manrs.org/resources/events/" target="_blank">MANRS</a>
-    </div>
   </section>
   `
 };
